@@ -89,6 +89,22 @@ class TestFibonacci(unittest.TestCase):
         resultado = fibonacci(16)
         self.assertEqual(resultado, 987)
 
+    def test_with_16(self):
+        resultado = fibonacci(17)
+        self.assertEqual(resultado, 1597)
+        
+    def test_with_16(self):
+        resultado = fibonacci(18)
+        self.assertEqual(resultado, 2584)
+        
+    def test_with_16(self):
+        resultado = fibonacci(19)
+        self.assertEqual(resultado, 4181)
+        
+    def test_with_16(self):
+        resultado = fibonacci(20)
+        self.assertEqual(resultado, 6765)
+        
     # Y siguen las pruebas siguiendo la secuencia Fibonacci, me canse xd 
     # Ejecución de las pruebas unitarias al correr el script //ALBARRACIN
 unittest.main()
